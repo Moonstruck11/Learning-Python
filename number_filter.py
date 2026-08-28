@@ -1,0 +1,26 @@
+def get_even_numbers(numbers):
+    even_numbers = []
+    for number in numbers:
+        if number % 2 == 0:
+            even_numbers.append(number)
+    return even_numbers
+numbers = [3, 8, 11, 14, 20, 7, 6]
+result = get_even_numbers(numbers)
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
